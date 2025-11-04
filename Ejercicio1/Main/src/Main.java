@@ -9,6 +9,7 @@ public class Main{
         System.out.println("¿Cuál es tu segundo valor?");
         double op2 = resultadosMatematicos.nextDouble();
         operadoresMatematicos.operacionesMatematicas(op1, op2);
+        resultadosMatematicos.close();
 
     }
 }
