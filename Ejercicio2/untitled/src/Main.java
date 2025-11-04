@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Indique segundo número");
         int valorDos = lecturaTeclado.nextInt();
         comparacionesAritmeticas.comparacionesMatematicas(valorUno, valorDos);
+        lecturaTeclado.close();
 
 
     }
