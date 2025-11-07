@@ -9,6 +9,7 @@ public class Main{
         System.out.println("¿Eres estudiante?");
         boolean estudiante = lecturaTeclado.nextBoolean();
         posibleEstudiante.posibleDescuento(edad, estudiante);
+        lecturaTeclado.close();
 
 
     }
